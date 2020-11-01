@@ -12,6 +12,6 @@ const MoviesPage = ({ match, movies }) => (
       render={(routerProps) => <MovieShow {...routerProps} movies={movies} />}
     />
   </div>
-)
+);
 
 export default MoviesPage
